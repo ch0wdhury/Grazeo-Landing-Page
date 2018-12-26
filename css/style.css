@@ -1,0 +1,99 @@
+html, body {
+	overflow-x: hidden;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+/* Header Section Starts Here */
+header {
+	background-color: #70B62E;
+}
+.custom_navbar {
+	padding: 20px 0;
+}
+.custom_brand {
+	width: 20%;
+}
+.custom_menubar li a {
+	color: #fff;
+	transition: .5s ease;
+	text-align: right;
+}
+.custom_toggler {
+    color: #fff;
+    font-size: 20px;
+    padding-top: 5px;
+}
+.custom_menubar li a:hover {
+	color: #282923;
+}
+/* Header Section Ends Here */
+/* Banner Section Starts Here */
+.banner {
+	background: 
+	linear-gradient(
+      rgba(0, 0, 0, 0.40), 
+      rgba(0, 0, 0, 0.40)),
+	url(../images/banner_bg.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+}
+.jumbotron {
+	margin-bottom: 0;
+}
+.reg_btn1 {
+	padding: .375rem 1.5rem;
+	border-radius: 20px;
+	color: #fff;
+}
+.reg_btn2 {
+	padding: .375rem 1.5rem;
+	border-radius: 20px;
+	color: #fff;
+}
+.active {
+	background-color: #70B62E!important;
+	color: #fff!important;
+}
+.custom_btn_group {
+	margin-top: 50px;
+}
+.custom_btn {
+	border: 2px solid #fff;
+	border-radius: 50px;
+	font-size: 30px;
+	padding: 1.2rem 2.5rem;
+	color: #fff;
+	transition: .5s ease;
+}
+.custom_btn:hover {
+/* border: 2px solid #70B62E; */
+	color: #fff;
+	background-color: #70B62E;
+}
+.jumbotron p a {
+	text-decoration: underline;
+	color: #fff;
+	transition: .5s ease;
+}
+.jumbotron p a:hover {
+	color: #70B62E;
+}
+/* Banner Section Ends Here */
+/* Footer Section Starts Here */
+footer {
+	background-color: #70B62E;
+	margin: 0 auto;
+}
+.footer_text p {
+	padding-top: 15px;
+	color: #fff;
+	margin-bottom: 15px;
+}
+/* Footer Section Ends Here */

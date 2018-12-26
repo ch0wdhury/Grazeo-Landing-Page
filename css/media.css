@@ -1,0 +1,67 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.custom_brand {
+		width: 50%;
+	}
+	.reg_btn1 {
+		padding: .275rem .2rem;
+		border-radius: 20px;
+		font-size: 14px;
+	}
+	.reg_btn2 {
+		padding: .275rem .2rem;
+		border-radius: 20px;
+		font-size: 14px;
+	}
+	.jumbotron h1 {
+		font-size: 30px;
+	}
+	.jumbotron p {
+		font-size: 15px;
+	}
+	.custom_btn {
+		border-radius: 50px;
+		font-size: 20px;
+		padding: 1rem 2rem;
+	}
+	.bottom_texts {
+		font-size: 12px!important;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.custom_brand {
+		width: 30%;
+	}
+	.jumbotron h1 {
+		font-size: 30px;
+	}
+	.jumbotron p {
+		font-size: 15px;
+	}
+	.custom_btn {
+		border-radius: 50px;
+		font-size: 20px;
+		padding: 1rem 2rem;
+	}
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.custom_brand {
+		width: 25%;
+	}
+	.jumbotron h1 {
+		font-size: 45px;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
